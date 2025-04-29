@@ -30,7 +30,10 @@ commands=(
 OUTPUT_FILE='./lucasFerreira.txt'
 
 for command in "${commands[@]}"; do
+    echo ============================================================ >> $OUTPUT_FILE
     echo Running $command >> $OUTPUT_FILE
     $command >> $OUTPUT_FILE
+    echo >> $OUTPUT_FILE
+    echo ============================================================ >> $OUTPUT_FILE
     echo >> $OUTPUT_FILE
 done
