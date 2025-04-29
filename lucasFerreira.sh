@@ -11,9 +11,10 @@ commands=(
 "top"
 "history"
 )
+OUTPUT_FILE='./lucasFerreira.txt'
 
-for command in ${commands[@]}; do
-    echo Running $command
-    $command
-    echo
+for command in ${commands[*]}; do
+    echo Running $command >> $OUTPUT_FILE
+    $command >> $OUTPUT_FILE
+    echo >> $OUTPUT_FILE
 done
