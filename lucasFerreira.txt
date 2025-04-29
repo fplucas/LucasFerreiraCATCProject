@@ -1,0 +1,297 @@
+============================================================
+Running date
+Tue Apr 29 19:40:32 UTC 2025
+
+============================================================
+
+============================================================
+Running hostname
+LPFerreiraCTAC
+
+============================================================
+
+============================================================
+Running arch
+x86_64
+
+============================================================
+
+============================================================
+Running uname -a
+Linux LPFerreiraCTAC 6.8.0-1026-azure #31~22.04.1-Ubuntu SMP Thu Mar 20 04:12:50 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+
+============================================================
+
+============================================================
+Running uptime
+ 19:40:32 up  1:23,  1 user,  load average: 0.00, 0.00, 0.00
+
+============================================================
+
+============================================================
+Running whoami
+lucas
+
+============================================================
+
+============================================================
+Running who
+lucas    pts/0        2025-04-29 18:44 (109.255.215.108)
+
+============================================================
+
+============================================================
+Running w
+ 19:40:32 up  1:23,  1 user,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+lucas    pts/0    109.255.215.108  18:44    0.00s  0.20s  0.00s bash lucasFerreira.sh
+
+============================================================
+
+============================================================
+Running top -bn1
+top - 19:40:32 up  1:23,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks: 122 total,   1 running, 121 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  3.2 sy,  0.0 ni, 96.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :    841.4 total,    260.2 free,    251.8 used,    329.4 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.    449.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0  100784  11596   8268 S   0.0   1.3   0:01.53 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_workqueue_release
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-rcu_g
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-rcu_p
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-slub_
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-netns
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/0:0H-events_highpri
+     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-mm_pe
+     13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tasks_rude_kthread
+     14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tasks_trace_kthread
+     15 root      20   0       0      0      0 S   0.0   0.0   0:00.02 ksoftirqd/0
+     16 root      20   0       0      0      0 I   0.0   0.0   0:00.15 rcu_sched
+     17 root      rt   0       0      0      0 S   0.0   0.0   0:00.02 migration/0
+     18 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/0
+     19 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0
+     20 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/1
+     21 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/1
+     22 root      rt   0       0      0      0 S   0.0   0.0   0:00.31 migration/1
+     23 root      20   0       0      0      0 S   0.0   0.0   0:00.03 ksoftirqd/1
+     25 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/1:0H-events_highpri
+     26 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kdevtmpfs
+     27 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-inet_
+     29 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kauditd
+     31 root      20   0       0      0      0 S   0.0   0.0   0:00.00 khungtaskd
+     32 root      20   0       0      0      0 S   0.0   0.0   0:00.00 oom_reaper
+     34 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-write
+     35 root      20   0       0      0      0 S   0.0   0.0   0:00.13 kcompactd0
+     36 root      25   5       0      0      0 S   0.0   0.0   0:00.00 ksmd
+     37 root      39  19       0      0      0 S   0.0   0.0   0:00.05 khugepaged
+     38 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-kinte
+     39 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-kbloc
+     40 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-blkcg
+     41 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 irq/9-acpi
+     42 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-tpm_d
+     43 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-ata_s
+     44 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-md
+     45 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-md_bi
+     46 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-edac-
+     47 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-hv_vm
+     48 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-hv_vm
+     49 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-hv_pr
+     50 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-hv_su
+     51 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-devfr
+     52 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 watchdogd
+     53 root       0 -20       0      0      0 I   0.0   0.0   0:00.02 kworker/1:1H-kblockd
+     54 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kswapd0
+     55 root      20   0       0      0      0 S   0.0   0.0   0:00.00 ecryptfs-kthread
+     56 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-kthro
+     57 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-nfit
+     58 root      20   0       0      0      0 S   0.0   0.0   0:00.80 hwrng
+     59 root      20   0       0      0      0 S   0.0   0.0   0:00.00 scsi_eh_0
+     60 root      20   0       0      0      0 S   0.0   0.0   0:00.00 scsi_eh_1
+     61 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-scsi_
+     62 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-scsi_
+     63 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-nvme-
+     64 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-nvme-
+     65 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-nvme-
+     66 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-nvme-
+     69 root      20   0       0      0      0 S   0.0   0.0   0:00.10 hv_balloon
+     70 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-mld
+     71 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker/0:1H-kblockd
+     72 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-ipv6_
+     79 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-kstrp
+     81 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/u5:0
+     95 root      20   0       0      0      0 S   0.0   0.0   0:00.09 jbd2/sda1-8
+     96 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-ext4-
+    137 root      19  -1   64280  16728  15704 S   0.0   1.9   0:00.47 systemd-journal
+    171 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-kalua
+    173 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-kmpat
+    174 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-kmpat
+    175 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-kmpat
+    176 root      rt   0  289348  27520   8960 S   0.0   3.2   0:00.40 multipathd
+    177 root      20   0   23024   6528   4736 S   0.0   0.8   0:00.18 systemd-udevd
+    202 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-crypt
+    283 root      20   0    3812   2688   2048 S   0.0   0.3   0:00.56 hv_kvp_daemon
+    420 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-tls-s
+    421 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-mlx5_
+    424 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-mlx5_
+    425 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-mlx5_
+    426 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-mlx5_
+    427 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-mlx5_
+    428 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-mlx5_
+    429 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-mlx5e
+    430 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-mlx5e
+    435 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-ib-co
+    436 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-ib-co
+    437 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-ib_mc
+    438 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-ib_nl
+    439 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-mkey_
+    456 systemd+  20   0   16260   8448   7424 S   0.0   1.0   0:00.03 systemd-network
+    458 systemd+  20   0   26332  14200   9216 S   0.0   1.6   0:00.07 systemd-resolve
+    495 message+  20   0    8600   4736   4224 S   0.0   0.5   0:00.04 dbus-daemon
+    499 root      20   0   82700   3968   3712 S   0.0   0.5   0:00.11 irqbalance
+    501 root      20   0   33064  19712  10624 S   0.0   2.3   0:00.08 networkd-dispat
+    503 syslog    20   0  222404   6016   4608 S   0.0   0.7   0:00.05 rsyslogd
+    507 root      20   0 1321476  36480  21120 S   0.0   4.2   0:00.58 snapd
+    512 root      20   0   15496   7680   6784 S   0.0   0.9   0:00.07 systemd-logind
+    514 root      20   0   32724  23772   9984 S   0.0   2.8   0:00.21 python3
+    527 root      20   0    7288   2816   2560 S   0.0   0.3   0:00.00 cron
+    545 root      20   0    6220   2304   2176 S   0.0   0.3   0:00.00 agetty
+    555 root      20   0    6176   2304   2176 S   0.0   0.3   0:00.14 agetty
+    559 _chrony   20   0   10708   3504   2944 S   0.0   0.4   0:01.22 chronyd
+    568 _chrony   20   0   10576    988    512 S   0.0   0.1   0:00.00 chronyd
+    569 root      20   0   15432   9344   7808 S   0.0   1.1   0:00.17 sshd
+    573 root      20   0  110132  21504  13440 S   0.0   2.5   0:00.05 unattended-upgr
+    600 root      20   0  406928  31656  12032 S   0.0   3.7   0:03.88 python3
+    837 root      20   0       0      0      0 I   0.0   0.0   0:00.75 kworker/0:0-events
+   1491 root      20   0   17052  10624   8576 S   0.0   1.2   0:00.00 sshd
+   1494 lucas     20   0   17072   9728   8064 S   0.0   1.1   0:00.05 systemd
+   1495 lucas     20   0  103836   5508   1664 S   0.0   0.6   0:00.00 (sd-pam)
+   1559 lucas     20   0   17480   8056   5504 S   0.0   0.9   0:00.31 sshd
+   1560 lucas     20   0   10320   6528   3712 S   0.0   0.8   0:00.20 bash
+   1634 root      20   0       0      0      0 I   0.0   0.0   0:00.16 kworker/u4:2-events_power_efficient
+   1642 root      20   0       0      0      0 I   0.0   0.0   0:00.31 kworker/1:0-events
+   1708 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker/0:1-cgwb_release
+   1729 root      20   0       0      0      0 I   0.0   0.0   0:00.08 kworker/u4:0-events_power_efficient
+   1797 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker/1:1-cgroup_destroy
+   1919 root      20   0       0      0      0 I   0.0   0.0   0:00.03 kworker/u4:3-events_power_efficient
+   2089 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker/1:2
+   2114 lucas     20   0    7896   3840   3328 S   0.0   0.4   0:00.00 bash
+   2123 lucas     20   0   10768   3840   3200 R   0.0   0.4   0:00.00 top
+
+============================================================
+
+============================================================
+Running history
+    1  yes please
+    2  echo hello world
+    3  passwd
+    4  echo hello world
+    5  passwd
+    6  date
+    7  hostname
+    8  arch
+    9  uname -a
+   10  dmesg | more
+   11  sudo dmesg | more
+   12  man echo
+   13  man passwd
+   14  passwd
+   15  date
+   16  man date
+   17  man hostname
+   18  hostname
+   19  man arch
+   20  arch
+   21  man uname
+   22  uname -a
+   23  man dmesg
+   24  man more
+   25  dmesg | more
+   26  man sudo
+   27  sudo dmesg | more
+   28  dmesg | more
+   29  sudo dmesg | more
+   30  man uptime
+   31  uptime
+   32  man whoami
+   33  whoami
+   34  man who
+   35  who
+   36  last
+   37  man last
+   38  man w
+   39  w
+   40  man top
+   41  top
+   42  man echo
+   43  echo $SHELL
+   44  echo {con,pre}{sent,fer}{s,ed} 
+   45  man ls
+   46  man man
+   47  man who
+   48  clear
+   49  man clear
+   50  man cal
+   51  cal 2000
+   52  sudo apt install ncal
+   53  uname -a
+   54  cal 2000
+   55  cal 9 1752 
+   56  man yes
+   57  yes please
+   58  tmux
+   59  yes please | head 10
+   60  yes please
+   61  man time
+   62  man sleep
+   63  time sleep 5
+   64  history
+   65  vim .bash_history 
+   66  history
+   67  man history
+   68  ls
+   69  mkdir workspace
+   70  cd workspace/
+   71  ls
+   72  cd
+   73  ls -l ~
+   74  ls -l /home/
+   75  man chmod
+   76  ls -l /home/
+   77  cd ../
+   78  ls -l /home/
+   79  chmod 700 lucas/
+   80  ls -l /home/
+   81  chmod 750 lucas/
+   82  cd
+   83  lynx google.com
+   84  sudo apt install lynx
+   85  lynx google.com
+   86  ls
+   87  cd workspace/
+   88  ls
+   89  commands=( "date" "hostname" "arch" "uname -a" "uptime" "whoami" "who" "w"
+   90  "top -bn1" "history" )
+   91  OUTPUT_FILE='./lucasFerreira.txt'
+   92  for command in "${commands[@]}"; do     echo Running $command >> $OUTPUT_FILE;     $command >> $OUTPUT_FILE;     echo >> $OUTPUT_FILE; done
+   93  commands=( "date" "hostname" "arch" "uname -a" "uptime" "whoami" "who" "w"
+   94  "top -bn1" "history" )
+   95  OUTPUT_FILE='./lucasFerreira.txt'
+   96  for command in "${commands[@]}"; do     echo ============================================================ >> $OUTPUT_FILE;     echo Running $command >> $OUTPUT_FILE;     $command >> $OUTPUT_FILE;     echo >> $OUTPUT_FILE;     echo ============================================================ >> $OUTPUT_FILE;     echo >> $OUTPUT_FILE; done
+   97  commands=( "date" "hostname" "arch" "uname -a" "uptime" "whoami" "who" "w"
+   98  "top -bn1" "history" )
+   99  OUTPUT_FILE='./lucasFerreira.txt'
+  100  for command in "${commands[@]}"; do     echo ============================================================ >> $OUTPUT_FILE;     echo Running $command >> $OUTPUT_FILE;     $command >> $OUTPUT_FILE;     echo >> $OUTPUT_FILE;     echo ============================================================ >> $OUTPUT_FILE;     echo >> $OUTPUT_FILE; done
+  101  commands=( "date" "hostname" "arch" "uname -a" "uptime" "whoami" "who" "w"
+  102  "top -bn1" "history" )
+  103  OUTPUT_FILE='./lucasFerreira.txt'
+  104  for command in "${commands[@]}"; do     echo ============================================================ >> $OUTPUT_FILE;     echo Running $command >> $OUTPUT_FILE;     $command >> $OUTPUT_FILE;     echo >> $OUTPUT_FILE;     echo ============================================================ >> $OUTPUT_FILE;     echo >> $OUTPUT_FILE; done
+  105  commands=( "date" "hostname" "arch" "uname -a" "uptime" "whoami" "who" "w"
+"top -bn1" "history" )
+  106  OUTPUT_FILE='./lucasFerreira.txt'
+  107  for command in "${commands[@]}"; do     echo ============================================================ >> $OUTPUT_FILE;     echo Running $command >> $OUTPUT_FILE;     $command >> $OUTPUT_FILE;     echo >> $OUTPUT_FILE;     echo ============================================================ >> $OUTPUT_FILE;     echo >> $OUTPUT_FILE; done
+
+============================================================
+
