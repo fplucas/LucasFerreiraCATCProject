@@ -1,4 +1,10 @@
 #!/bin/bash
+
+# Bash disables history in noninteractive shells by default, but you can turn it on.
+# https://unix.stackexchange.com/questions/5684/history-command-inside-bash-script
+HISTFILE=~/.bash_history
+set -o history
+
 commands=(
 "date"
 "hostname"
